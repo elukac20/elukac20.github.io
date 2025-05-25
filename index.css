@@ -131,13 +131,15 @@ a:hover{
 
 
 .about-header{
-  font-size:3vw;
+  font-size:2.5vw;
 }
 
 .info-chunk{
   background-color: #ecf0fd;
-  padding:3vw;
+  padding:2vw;
   margin:2vw;
+  display:inline-block;
+  border-radius: 15px;
 }
 
 .about-blurb{
@@ -145,26 +147,50 @@ a:hover{
   /* border: 2px solid #bba8e0; */
   /* padding:2vw 2vw 2vw 2vw; */
 
-  border-radius: 30px;
+  
   display:inline-block;
-  width:32vw;
-  margin:0vw 8vw 0vw 7vw;
-  font-size:2vw
+  /* width:32vw; */
+  margin:0vw 5vw 0vw 5vw;
+  font-size:1.5vw
 }
 
-
+/* 
 .about-map{
   background-color:pink;
   height:45vw;
   width:35vw;
   display:inline-block;
   vertical-align:top;
+} */
+
+/* .manhattan{
+  width:50vw
+} */
+
+
+
+.allbooks{
+  display:inline-block;
+  height:24vw;
+  width:100%;
+
 }
 
-.major-art{
-  background-color: #a253a2;
-  display:inline-block;
-  height:18vw;
-  width:32vw;
+.booktext{
+  font-size:2vw;
+  color:rgb(32, 32, 32);
 
+}
+
+.book{
+  display:inline-block;
+  
+}
+
+.bookimg{
+  width:10vw;
+}
+
+#book1, #book2, #book3{
+  margin-right:1vw;
 }
