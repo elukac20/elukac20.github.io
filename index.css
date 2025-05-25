@@ -1,3 +1,170 @@
 body {
-    background-color: powderblue;
+    background-color: #e5ecff;
   }
+
+/* name font */
+  .zilla-slab-light {
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .zilla-slab-regular {
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .zilla-slab-medium {
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .zilla-slab-semibold {
+    font-family: "Zilla Slab", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .zilla-slab-bold {
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .zilla-slab-light-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .zilla-slab-regular-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .zilla-slab-medium-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .zilla-slab-semibold-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .zilla-slab-bold-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+.zilla{
+  font-size:4vw;
+}
+
+/* rounded font */
+
+.fredoka-font1 {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  font-size:2vw;
+  
+}
+
+
+
+/* nav bar */
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  
+}
+li {
+  display: inline;
+  padding:2vw;
+  width: fit-content;
+  
+}
+
+.navbar{
+  align-items:center;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top:3vw;
+  
+}
+
+.contacts{
+  padding:0px;
+  margin:0vw 0vw 0vw 0vw;
+  font-size:1vw;
+  color:grey;
+}
+
+.logo{
+  width:3vw;
+}
+
+.selected{
+  text-decoration:underline;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+
+}
+a:hover{
+  color:grey;
+}
+
+
+
+.about-header{
+  font-size:3vw;
+}
+
+.about-chunk{
+  background-color: #ecf0fd;
+  padding:3vw;
+  margin:2vw;
+}
+
+.about-blurb{
+  /* background-color: white; */
+  /* border: 2px solid #bba8e0; */
+  /* padding:2vw 2vw 2vw 2vw; */
+
+  border-radius: 30px;
+  display:inline-block;
+  width:32vw;
+  margin:0vw 8vw 0vw 7vw;
+  font-size:2vw
+}
+
+
+.about-map{
+  background-color:pink;
+  height:45vw;
+  width:35vw;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.major-art{
+  background-color: #a253a2;
+  display:inline-block;
+  height:18vw;
+  width:32vw;
+
+}
