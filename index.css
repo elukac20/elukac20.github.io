@@ -199,7 +199,7 @@ a:hover{
 }
 
 
-.position-title{
+.position-title, .project-name{
   font-weight:500
 }
 
@@ -207,7 +207,7 @@ a:hover{
   color:#5b5b5b;
 }
 
-.position-description{
+.position-description, .project-description{
   margin:1vw;
   font-size:1.4vw
 }
@@ -216,4 +216,9 @@ a:hover{
 hr{
   color:#dae4ff;
   border-style:dashed;
+}
+
+.intext-link{
+  text-decoration: underline;
+  color:#3946cd;
 }
