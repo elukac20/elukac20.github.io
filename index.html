@@ -213,18 +213,18 @@
                         available <a class="intext-link" href="https://www.commerce.senate.gov/services/files/4BD2D522-2092-4246-91A5-58EEF99750BC">here</a>). Note that our final project was 
                         submitted May 9, 2025.<br><br>
                         - Beyond EDA of the the Senate-released dataset, I focused on using the BERT base model to create contextual embeddings for
-                        the flagged 'DEI' terms situated within their larger context within the proposal. <br>
+                        the flagged 'DEI' terms situated in their larger context within the proposal. <br>
                         I added any flagged DEI terms
                         that were not contained within the WordPiece tokenizer dictionary, and I further had to iterate through the proposals
-                        in consideration of the limited frame of the tokenizer, which can only tokenize 512 tokens. 
-                        This ensures that each context of any flagged term can be accounted for, and each instance of a flagged
+                        in consideration of the limited frame of the tokenizer (512 tokens). 
+                        I ensured that each context of any flagged term can be accounted for throughout all proposals, and each instance of a flagged
                         term is considered. To cluster the embeddings, I tested both k-means and HDBSCAN, though I eventually relied more
-                        on HDBSCAN due to more accurate contextualizations. Our results showed significant oversight in
-                        flagging these terms, as the term "POC" never appeared in relation to "person/people of color," and only
-                        ever appears in reference to "point-of-care." Further, through clustering, we see that the term "trauma"
-                        appears in contexts that can be in reference to 'head' or 'brain' trauma, or within
-                        the other context that we believe to be more intended by the Senate Committee, as the contexts
-                        can be viewed as 'DEI-related' (such that it is used in combination with other flagged terms, such as 'racial').<br><br>
+                        on HDBSCAN due to more accurate contextualizations and groupings. <br><br>
+                        - Our results showed significant oversight in the Senate Committee's flagging of these terms, as the term "poc" never appeared in
+                         relation to "person/people of color," and only ever appears in reference to "point-of-care." Further, through clustering, we see that the term "trauma"
+                        appears in contexts that can be in reference to 'head' or 'brain' trauma, as well as 
+                        in a context we believe is intended by the Senate Committee that
+                        can be viewed as 'DEI'-related (such that it is used in combination with other flagged terms, such as 'racial').<br><br>
                         - The BERT and clustering code is uploaded on <a class="intext-link" href="https://github.com/elukac20/llm-ethics">GitHub</a>, under "final_bert.ipynb."
 
                     </div>
@@ -290,7 +290,7 @@
                     <br><br>
                     <span class="course-name">- COMS BC3997: LLM Foundations & Ethics</span>
                     <span class="course-description">(completed project using BERT and clustering, PMI, and Gemma3 to identify false positive flaggings within 
-                        database of flagged "DEI" NSF research award descriptions)</span>
+                        database of flagged "DEI" NSF research award descriptions. See Projects section.)</span>
                     <br><br>
                     <span class="course-name">- STAT UN2102: Applied Statistical Computing</span>
                     <span class="course-description">(data visualization, exploratory data analysis in R)</span>
@@ -307,14 +307,51 @@
 
             </div>
         </div>
-        <div class="info-chunk">
+        <!-- <div class="info-chunk">
             <div class="text-box fredoka-font1">
                 <div class="zilla-slab-medium zilla text-header">Relevant Skills</div>
-                    <br>
+                <br>
                 <span class="skill-name">Python</span>
                 <span class="skill-level">- Advanced</span>
+                <br>
+                <span class="skill-name">pandas</span>
+                <span class="skill-level">- Intermediate</span>
+                <br>
+                <span class="skill-name">matplotlib</span>
+                <span class="skill-level">- Intermediate</span>
+                <br>
+                <span class="skill-name">scikit-learn</span>
+                <span class="skill-level">- Intermediate</span>
+                <br>
+                <span class="skill-name">PyTorch</span>
+                <span class="skill-level"> - Beginner</span>
+                <br>
+                <br>
+                <span class="skill-name">Java</span>
+                <span class="skill-level">- Intermediate</span>
+                <br>
+                <span class="skill-name">SQL</span>
+                <span class="skill-level">- Intermediate</span>
+                <br>
+                <span class="skill-name">R</span>
+                <span class="skill-level">- Intermediate</span>
+                <br>
+                <span class="skill-name">HTML, CSS</span>
+                <span class="skill-level">- Intermediate</span>
+                <br>
+                <span class="skill-name">C</span>
+                <span class="skill-level">- Beginner</span>
+                <br>
+                <span class="skill-name">Git</span>
+                <span class="skill-level">- Intermediate</span>
+                <br>
+                <span class="skill-name">MongoDB</span>
+                <span class="skill-level">- Intermediate</span>
+                <br>
+                <span class="skill-name">JavaScript, React, JQuery</span>
+                <span class="skill-level">- Beginner</span>
             </div>
-        </div>
+        </div> -->
     
     </body>
 </html>

@@ -81,7 +81,7 @@ body {
 
 
 /* nav bar */
-ul {
+ul .nav{
   
   list-style-type: none;
   margin: 0;
@@ -231,4 +231,10 @@ hr{
 .intext-link{
   text-decoration: underline;
   color:#3946cd;
+}
+
+.list{
+  display:list-item;
+  list-style-type: square;
+  
 }
