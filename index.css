@@ -84,9 +84,6 @@ body {
 ul .nav{
   
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  
   
 }
 li {
@@ -100,7 +97,7 @@ li {
   align-items:center;
   display: flex;
   justify-content: space-evenly;
-  padding-top:3vw;
+  padding-top:2vw;
   
 }
 
@@ -112,7 +109,7 @@ li {
 }
 
 .logo{
-  width:3vw;
+  width:4vw;
 }
 
 .selected{
