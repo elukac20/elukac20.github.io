@@ -82,10 +82,10 @@ body {
 
 /* nav bar */
 ul .nav{
-  
   list-style-type: none;
   
 }
+
 li {
   display: inline;
   padding:2vw;
@@ -118,11 +118,12 @@ li {
 
 a{
   text-decoration: none;
-  color:black;
+  color:#525252;
 
 }
 a:hover{
-  color:grey;
+  color:#a3a3a3;
+  text-decoration: underline dashed;
 }
 
 
@@ -153,21 +154,6 @@ a:hover{
   margin:0vw 5vw 0vw 5vw;
   font-size:1.5vw
 }
-
-/* 
-.about-map{
-  background-color:pink;
-  height:45vw;
-  width:35vw;
-  display:inline-block;
-  vertical-align:top;
-} */
-
-/* .manhattan{
-  width:50vw
-} */
-
-
 
 .allbooks{
   display:inline-block;
