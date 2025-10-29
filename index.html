@@ -231,8 +231,7 @@
                         submitted May 9, 2025.<br><br>
                         - Beyond EDA of the the Senate-released dataset, I focused on using the BERT base model to create contextual embeddings for
                         the flagged 'DEI' terms situated in their larger context within the proposal. <br>
-                        I added any flagged DEI terms
-                        that were not contained within the WordPiece tokenizer dictionary, and I further had to iterate through portions of each proposal
+                        I had to iterate through portions of each proposal
                         in consideration of the limited frame of the tokenizer (512 tokens) to ensure that each context and instance of any flagged term can be accounted for throughout all proposals.
                         To cluster the embeddings, I tested both k-means and HDBSCAN, though I eventually relied more
                         on HDBSCAN due to more accurate contextualizations and groupings. <br><br>
